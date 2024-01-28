@@ -412,8 +412,8 @@ img {
 
 .team-list {
   display: flex;
-  flex-direction: row;
-  gap: 24px;
+  flex-direction: column;
+  gap: 72px;
 }
 
 .team-discription {
@@ -421,6 +421,22 @@ img {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+@media screen and (max-width: 767px) {
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+  }
+}
+
+@media screen and (min-width: 1157px) {
+  .team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
 }
 
 .container-icon {
