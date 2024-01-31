@@ -849,6 +849,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .footer .webstudio {
@@ -865,7 +866,14 @@ img {
 .footer-social-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
   /* margin-right: 80px; */
+}
+
+.footer-subscribe-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .footer-social-container .icon-app {
@@ -884,6 +892,7 @@ img {
 }
 
 .footer-social-media {
+  width: inherit;
   color: #ffffff;
   font-weight: 500;
   line-height: 1.5;
@@ -893,6 +902,7 @@ img {
 }
 
 .footer-subscribe-form {
+  width: inherit;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -900,8 +910,13 @@ img {
   gap: 24px;
 }
 
+.subscribe {
+  width: inherit;
+}
+
 .modal-subscribe {
-  width: 264px;
+  width: 100%;
+  max-width: 288px;
   height: 40px;
   color: #ffffff;
   background-color: #2e2f42;
@@ -914,6 +929,7 @@ img {
   letter-spacing: 0.04em;
   padding-left: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
 }
 
 .modal-subscribe::placeholder {
