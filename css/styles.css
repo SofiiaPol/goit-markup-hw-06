@@ -93,7 +93,6 @@ img {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  /* margin-right: 76px; */
   display: inline-block;
   position: relative;
   margin: 16px;
@@ -191,6 +190,12 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .webstudio {
+    padding-right: 120px;
+  }
+  .nav-ul {
+    padding-right: 1320px;
+  }
   .address {
     display: flex;
     flex-direction: column;
@@ -481,7 +486,7 @@ img {
   .features-discription {
     font-size: 20px;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
   }
   .feature-item {
     width: 264px;
