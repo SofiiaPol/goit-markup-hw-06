@@ -554,6 +554,10 @@ img {
   flex-direction: column;
 }
 
+.container-team .features-discription {
+  font-size: 20px;
+}
+
 .team-h {
   font-family: Roboto;
   font-size: 36px;
@@ -569,7 +573,7 @@ img {
 
 .team-list {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 72px;
   align-items: center;
