@@ -98,6 +98,25 @@ img {
   margin: 16px;
 }
 
+.menu-button {
+  /* display: flex;
+  position: absolute; */
+  top: 20px;
+  right: 20px;
+  width: 17px;
+  height: 17px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.menu-button-svg {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #2f2f37;
+}
+
 .nav-panel {
   display: flex;
   flex-direction: row;
@@ -193,9 +212,9 @@ img {
   .webstudio {
     padding-right: 120px;
   }
-  .nav-ul {
+  /* .nav-ul {
     padding-right: 1320px;
-  }
+  } */
   .address {
     display: flex;
     flex-direction: column;
