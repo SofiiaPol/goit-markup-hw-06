@@ -219,11 +219,19 @@ img {
     display: flex;
     flex-direction: column;
   }
+  .menu-button,
+  .menu-button-svg {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1158px) {
   .webstudio {
     margin-right: 76px;
+  }
+  .menu-button,
+  .menu-button-svg {
+    display: none;
   }
 }
 
@@ -622,7 +630,7 @@ img {
 @media screen and (min-width: 1158px) {
   .team-list {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 24px;
   }
   .team-discription {
@@ -1020,17 +1028,20 @@ img {
     flex-direction: row;
     align-items: baseline;
   }
+
   .slogan-container {
     margin-right: 120px;
   }
+
   .footer .webstudio {
     margin-bottom: 16px;
   }
+
   .footer-social-container {
     margin-right: 80px;
   }
   .footer-social-media {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -1085,9 +1096,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-} */
+}
 
-/* .footer-subscribe-form {
+.footer-subscribe-form {
   color: #ffffff;
   display: flex;
   flex-direction: row;
