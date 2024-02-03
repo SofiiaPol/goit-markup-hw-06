@@ -1425,18 +1425,57 @@ img {
   visibility: visible;
 }
 
-.modal-menu {
-  display: flex;
-  width: 100vh;
-  height: 100vh;
+.mobile-menu {
+  position: fixed;
+  z-index: 999;
   top: 0;
   left: 0;
-  position: fixed;
-  z-index: 111;
+  width: 100%;
+  height: 100%;
   background-color: #ffffff;
-  justify-content: space-between;
-  /* visibility: hidden; */
 }
+
+.modal-menu {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  height: inherit;
+  justify-content: space-between;
+}
+
+.mobile-menu .nav-ul,
+.mobile-menu .address {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu .nav-ul {
+  gap: 40px;
+}
+
+.mobile-menu .nav-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+}
+
+.mobile-menu .address-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+/* .mbile-menu {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+} */
 
 /* .modal-menu {
   display: flex;
@@ -1450,7 +1489,7 @@ img {
   justify-content: space-between;
 } */
 
-.modal-menu .nav-ul {
+/* .modal-menu .nav-ul {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -1494,6 +1533,6 @@ img {
 .modal-menu .icon-app {
   width: 24px;
   height: 24px;
-}
+} */
 
 /* MOBILE MENU styles END */
