@@ -103,8 +103,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* top: 20px;
-  right: 20px; */
   background-color: #ffffff;
   border: none;
 }
@@ -208,9 +206,6 @@ img {
   .webstudio {
     padding-right: 120px;
   }
-  /* .nav-ul {
-    padding-right: 1320px;
-  } */
   .address {
     display: flex;
     flex-direction: column;
@@ -811,16 +806,12 @@ img {
 @media screen and (max-width: 767px) {
   .portfolio-list {
     align-items: center;
+    justify-content: center;
   }
-  /* .portfolio-li {
-    min-width: 356px;
-  } */
 }
 
 @media screen and (min-width: 1157px) {
   .portfolio-list {
-    /* display: flex;
-    flex-wrap: wrap; */
     column-gap: 24px;
     row-gap: 48px;
   }
@@ -924,7 +915,6 @@ img {
   display: flex;
   flex-direction: column;
   width: 100%;
-  /* margin-right: 80px; */
 }
 
 .footer-subscribe-container {
@@ -1017,13 +1007,36 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+  }
   .footer-subscribe-container {
     max-width: 453px;
+    margin-left: 108px;
+  }
+  .footer-subscribe-container .footer-social-media {
+    text-align: left;
+  }
+  .footer-social-media {
+    text-align: left;
   }
   .footer-subscribe-form {
     flex-direction: row;
     align-items: center;
     gap: 24px;
+  }
+  .slogan-container .footer-social-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .slogan-container {
+    width: 264px;
+    margin-left: 108px;
+  }
+  .footer-social-container {
+    width: 208px;
+    margin-left: 24px;
   }
 }
 
